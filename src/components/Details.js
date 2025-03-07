@@ -6,7 +6,7 @@ function Details({ myName, changeName, myAge, myNumber }) {
       <input
         type="text"
         onChange={(e) => {
-          setName(e.target.value);
+          changeName(e.target.value);
         }}
       />
       <div>{myName}</div>
